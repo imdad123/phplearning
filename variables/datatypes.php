@@ -10,3 +10,7 @@ var_dump(NULL);
 $foo = "Bar"; // Assign the string "Bar" to the variable $foo
 $$foo = "Hello, dynamic variable!";
 echo $foo . "${$foo}";
+
+//type casting
+$str = (int)"20";
+var_dump($str);

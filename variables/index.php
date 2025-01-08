@@ -1,5 +1,8 @@
-<?php declare(strict_types=1);
- $x = 5;
+<?php
+
+//this applyies to functions only
+declare(strict_types=1);
+$x = 5;
 $name = "Jhone";
 //concatination
 echo $x . " : " . $name . "";
